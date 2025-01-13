@@ -1,6 +1,6 @@
 /*fondo de pagina*/
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Arial', Times, serif;
     margin: 0%;
 }
 /*ubicacion de iconos y menus*/
@@ -8,7 +8,7 @@ header{
     display: flex;
     height: 100px;
     padding: 20px;
-    background-color:#D7DBDD;
+    background-color:#3d88ad;
     align-content: center;
     justify-content: space-between;
 }
