@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border:1px solid grey;
+    border-radius: 15px;
+    align-items: center;
+}
+
+input{
+    right: 30px;
+}
+
+button{
+    margin-top: 20px;
+}
