@@ -1,15 +1,38 @@
+body{
+    margin: auto;
+}
+
 form{
-    display: flex;
-    flex-direction: column;
-    border:1px solid grey;
     border-radius: 15px;
-    align-items: center;
+    margin-top: 12%;
+    margin-left: 45%;
+    width: 250px;
 }
 
 input{
-    right: 30px;
+    border-color: black;
+    margin-bottom: 5px;
+    width: 150px;
 }
 
 button{
-    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    margin-left: -50px;
+}
+
+label{
+    display: flex;
+   font-family: cursive;
+   color: black;
+   flex-direction: column;
+   align-items: center;
 }
