@@ -36,3 +36,8 @@ label{
    flex-direction: column;
    align-items: center;
 }
+
+.collapse navbar-collapse{
+    display: flex;
+    margin-left: 200px;
+}
