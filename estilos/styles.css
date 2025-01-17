@@ -59,3 +59,13 @@ p{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li{
+    margin-left: 10px;
+}
