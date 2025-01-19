@@ -1,21 +1,25 @@
+/*estilos del login*/
+
+/*se ajusta margen de la pagina y cambio de color */
 body{
     margin: auto;
     background-color:antiquewhite;
 }
-
+/*ubicacion de campos de ingreso*/
 form{
-    border-radius: 15px;
     margin-top: 9%;
     margin-left: 43%;
     width: 250px;
 }
 
+/*estilos de campos*/
 input{
     border-color: black;
     margin-bottom: 5px;
     width: 150px;
 }
 
+/*ubicacion del boton de ingresar y estilos*/
 button{
     display: flex;
     align-items: center;
@@ -24,12 +28,14 @@ button{
     margin-top: 10px;
 }
 
+/*ubicacion y tamañano del logo principal de inicio*/
 .Dandadan{
     display: flex;
     height: 300px;
     margin-left: -60px;
 }
 
+/*estilo de las palabras acompañadas de los imputs de ingreso*/
 label{
     display: flex;
    font-family: cursive;
@@ -38,6 +44,11 @@ label{
    align-items: center;
 }
 
+/*fin de estilos del login*/
+
+/*estilos de la pagina principal*/
+
+/*estilos del titulo de bienvenida*/
 h1{
     display: flex;
     font-size: 120px;
@@ -46,6 +57,7 @@ h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*estilos para el parrafo de bienvenida*/
 p{
     display: flex;
     font-size: 25px;
@@ -55,12 +67,15 @@ p{
     text-align: center;
 }
 
+/*ubicacion de iconos de redes sociales 
+PELIGRO: hacer cambios en este podria alterar la barra de navegacion, pendiente por modificar*/
 ul{
     display: flex;
     list-style-type: none;
     
 }
 
+/*ubicacion, separacion y tamaños de iconoces de redes sociales*/
 ol{
     display: flex;
     margin-left: 10px;
@@ -68,6 +83,7 @@ ol{
     width: 75px;
 }
 
+/*ubicacion, tamaño, tipo de litera, para la palabra "siguieme en" acompañada de los iconos de redes sociales*/
 h3{
     display: flex;
     margin-top: 140PX;
@@ -76,21 +92,27 @@ h3{
 
 }
 
+/*separador de titulos de navegacion con inicio, memes, guardados de el icono principal "memes dixon"*/
 .navbar-brand{
     display: flex;
     margin-right: 35%;
 }
 
+/* aumento de la barra de navegacion*/
 a{
     display: flex;
     margin: 10px;
 }
 
+/* lineas posicionadas encima de cada navegacion inicio, memes, guardados*/
 .nav-link{
     color: black;
     text-decoration:overline;
 }
 
+/*animacion para pasar por encima de las navegaciones y que cambien a color gris*/
 .nav-link:hover{
     color:gray;
 }
+
+/*Fin de estilos de pagina principal*/
