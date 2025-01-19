@@ -38,11 +38,6 @@ label{
    align-items: center;
 }
 
-.container-fluid{
-    display: flex;
-    margin-left: 39%;
-}
-
 h1{
     display: flex;
     font-size: 120px;
@@ -66,6 +61,36 @@ ul{
     
 }
 
-li{
+ol{
+    display: flex;
     margin-left: 10px;
+    margin-top: 30px;
+    width: 75px;
+}
+
+h3{
+    display: flex;
+    margin-top: 140PX;
+    margin-left: 140PX;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.navbar-brand{
+    display: flex;
+    margin-right: 35%;
+}
+
+a{
+    display: flex;
+    margin: 10px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration:overline;
+}
+
+.nav-link:hover{
+    color:gray;
 }
