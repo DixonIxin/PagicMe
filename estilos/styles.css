@@ -32,6 +32,7 @@ button{
 .Dandadan{
     display: flex;
     height: 300px;
+    margin: 0 auto;
     margin-left: -60px;
 }
 
@@ -50,16 +51,15 @@ label{
 
 /*estilos del titulo de bienvenida*/
 h1{
-    display: flex;
+    text-align: center;
     font-size: 120px;
-    margin-top: 150px;
-    margin-left: 35%;
+    margin: 150px 0 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*estilos para el parrafo de bienvenida*/
 p{
-    display: flex;
+   position: relative;
     font-size: 25px;
     margin-top: 120px;
     margin-left: 20px;
@@ -67,26 +67,25 @@ p{
     text-align: center;
 }
 
-/*ubicacion de iconos de redes sociales 
-PELIGRO: hacer cambios en este podria alterar la barra de navegacion, pendiente por modificar*/
-ul{
+/*ubicacion de iconos de redes sociales */
+.icons ul{
     display: flex;
-    list-style-type: none;
-    
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 /*ubicacion, separacion y tamaños de iconoces de redes sociales*/
-ol{
-    display: flex;
-    margin-left: 10px;
-    width: 75px;
+.icons li{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
 }
 
 /*ubicacion, tamaño, tipo de litera, para la palabra "siguieme en" acompañada de los iconos de redes sociales*/
 h3{
-    display: flex;
-    margin-top: 140PX;
-    margin-left: 140PX;
+    text-align: center;
     font-family:'Courier New', Courier, monospace;
 
 }
@@ -107,11 +106,19 @@ a{
 .nav-link{
     color: black;
     text-decoration:overline;
+    transition: color 0.2s ease;
 }
 
 /*animacion para pasar por encima de las navegaciones y que cambien a color gris*/
 .nav-link:hover{
-    color:gray;
+    color: grey;
 }
 
+svg{
+    color: black;
+}
+
+svg:hover{
+    color: grey;
+}
 /*Fin de estilos de pagina principal*/
