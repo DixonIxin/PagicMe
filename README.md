@@ -20,3 +20,5 @@ Contenido
 - web <br>
 - Principal <br>
 </p>
+
+[!info]
