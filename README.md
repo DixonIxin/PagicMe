@@ -13,7 +13,7 @@ Contenido
 </h2>
 
 <p>
-- Estilos
+- Estilos <br>
 - Imagenes
 - Login
 - Querys
