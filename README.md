@@ -14,16 +14,16 @@ Contenido
 
 <p>
 - Estilos <br>
-- Imagenes
-- Login
-- Querys
-- web
-- Principal
+- Imagenes <br>
+- Login <br>
+- Querys <br>
+- web <br>
+- Principal <br>
 </p>
 
 <h3>
 - Estilos
+</h3>
 <p>
   pruebas texto
  </p>
-</h3>
