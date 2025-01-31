@@ -20,10 +20,3 @@ Contenido
 - web <br>
 - Principal <br>
 </p>
-
-<h3 color= "blue">
-Estilos
-</h3>
-<p>
-  pruebas texto
- </p>
