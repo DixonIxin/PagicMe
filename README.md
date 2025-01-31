@@ -21,8 +21,8 @@ Contenido
 - Principal <br>
 </p>
 
-<h3>
-- Estilos
+<h3 color= "blue">
+Estilos
 </h3>
 <p>
   pruebas texto
