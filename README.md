@@ -21,4 +21,5 @@ Contenido
 - Principal <br>
 </p>
 
-[!info]
+> [!NOTE]
+> cabe aclarar que estas proyectos se iran actualizando al paso del tiempo...
