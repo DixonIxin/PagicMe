@@ -6,27 +6,19 @@ body{
     background-color:antiquewhite;
 }
 /*ubicacion de campos de ingreso*/
-form{
+.form-login{
     margin-top: 9%;
     margin-left: 43%;
     width: 250px;
-}
-
-/*estilos de campos*/
-input{
-    border-color: black;
-    margin-bottom: 5px;
-    width: 150px;
-}
-
-/*ubicacion del boton de ingresar y estilos*/
-button{
-    display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 80px;
-    margin-top: 10px;
 }
+
+.form-login button{
+    display: block;
+    margin: 20px auto 0 auto; /* margen superior y centrado horizontal */
+}
+
 
 /*ubicacion y tamañano del logo principal de inicio*/
 .Dandadan{
@@ -147,3 +139,42 @@ svg:hover{
 }
 
 /*Fin de estilos de pagina principal*/
+
+/*estilos de la pagina memes formulario*/
+/*estilo para centrar formulario*/
+.form-memes{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 7%;
+    background-color: white;
+}
+
+/*estilo para centrar boton de formulario memes*/
+.form-memes button{
+    display: block;
+    margin: 20px auto 0 auto; /* margen superior y centrado horizontal */
+}
+
+/*estilo para mejorar los imputs y textarea del formulario memes*/
+.form-memes input, 
+.form-memes textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.form-memes input:focus,
+.form-memes textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px #6c63ff33;
+}
