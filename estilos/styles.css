@@ -179,9 +179,22 @@ svg:hover{
     font-family:'Courier New', Courier, monospace;
 }
 
-/*codigo para de color boton cargar imagen cuando se pasa por encima de este*/
+.form-memes input:focus,
+.form-memes textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+    box-shadow: 0 0 25px #6c63ff33;
+}
+
+/*codigo cambiar de color boton de cargar imagen cuando se pasa por encima de este*/
 .form-memes input:hover{
-    color: blueviolet;
+    color: #6c63ff;
+}
+
+/*codigo para cambiar de color boton de enviar formulario memes cuando se pasa por encima de este*/ 
+.form-memes button:hover{
+    background-color: green;
+    box-shadow: 0 0 15px #6c63ff;
 }
 
 /*fin de estilos de la pagina memes formulario*/
