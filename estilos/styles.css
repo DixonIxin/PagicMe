@@ -147,11 +147,12 @@ svg:hover{
     width: 350px;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 5%;
-    padding: 15px;
+    margin-top: 8%;
+    margin-left: 8%;
+    padding: 30px;
     border-radius: 7%;
     background-color: white;
+    font-family:'Courier New', Courier, monospace;
 }
 
 /*estilo para centrar boton de formulario memes*/
@@ -163,6 +164,7 @@ svg:hover{
 /*estilo para mejorar los imputs y textarea del formulario memes*/
 .form-memes input, 
 .form-memes textarea{
+    font-family:'Courier New', Courier, monospace;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -172,9 +174,14 @@ svg:hover{
     font-family: inherit;
 }
 
-.form-memes input:focus,
-.form-memes textarea:focus {
-    outline: none;
-    border-color: #6c63ff;
-    box-shadow: 0 0 5px #6c63ff33;
+/*codigo para el fuente de las letras del formulario memes*/
+.form-memes label{
+    font-family:'Courier New', Courier, monospace;
 }
+
+/*codigo para de color boton cargar imagen cuando se pasa por encima de este*/
+.form-memes input:hover{
+    color: blueviolet;
+}
+
+/*fin de estilos de la pagina memes formulario*/
