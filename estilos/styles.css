@@ -178,3 +178,7 @@ svg:hover{
     border-color: #6c63ff;
     box-shadow: 0 0 5px #6c63ff33;
 }
+
+.form-memes input:hover{
+    color:#6c63ff;
+}
