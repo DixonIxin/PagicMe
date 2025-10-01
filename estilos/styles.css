@@ -163,6 +163,16 @@ svg:hover{
 }
 
 /*ubicacion de los iconos de html, css y bootstrap*/
+.footer {
+    max-height: 800px;
+    background: grey;
+    color: white;
+    margin-top: 150px;
+    padding-block: 180px;
+    text-align: center;
+}
+
+/*ubicacion de los iconos de html, css y bootstrap*/
 .img ul, 
 .img-HTML, 
 .img-CSS, 
