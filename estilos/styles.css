@@ -42,10 +42,24 @@ label{
 /*estilos de la pagina principal*/
 
 /*estilos del titulo de bienvenida*/
+.body{
+    margin: auto;
+    background-color: antiquewhite;
+    min-height: 100px;      /* Asegura que el body ocupe toda la altura de la ventana */
+    overflow-y: auto;   
+}
 h1{
     text-align: center;
     font-size: 120px;
     margin: 150px 0 20px;
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation-duration: 4s;
     animation-name: slidein;
@@ -138,6 +152,45 @@ svg:hover{
     color: grey;
 }
 
+/*estilos del footer de la pagina principal*/
+.footer {
+    max-height: 800px;
+    background: grey;
+    color: white;
+    margin-top: 150px;
+    padding-block: 180px;
+    text-align: center;
+}
+
+/*ubicacion de los iconos de html, css y bootstrap*/
+.img ul, 
+.img-HTML, 
+.img-CSS, 
+.img-BOOTSTRAP{
+    display: flex;
+    flex-direction: row; /* Apila los hijos verticalmente */
+    align-items: center; /* Centra las imágenes horizontalmente */
+    list-style: none;
+    margin-right: 10px;
+}
+
+.img ul{
+    position: relative;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+.img-HTML{
+    width: 120px;
+}
+
+.img-BOOTSTRAP{
+    width: 80px;
+}
+
+.img-CSS{
+    width: 135px;
+}
 /*Fin de estilos de pagina principal*/
 
 /*estilos de la pagina memes formulario*/
